@@ -20,7 +20,7 @@ var complimentsController = {
     res.redirect("/compliments")
   },
   edit: function(req, res){
-    res.redirect("/compliments")
+    res.send("No editing allowed");
   }
   // edit action code goes here...
 
