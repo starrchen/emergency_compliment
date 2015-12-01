@@ -25,11 +25,11 @@ app.get("/compliments/new", complimentsController.new);
 // show
 app.get("/compliments/:id", complimentsController.show);
 
+// edit
+  // edit route code goes here...
 app.get("/compliments/:id/edit", complimentsController.edit);
 
 
-// edit
-  // edit route code goes here...
 
 // update
  // update route code goes here...

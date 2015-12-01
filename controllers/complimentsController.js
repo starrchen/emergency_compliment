@@ -19,12 +19,21 @@ var complimentsController = {
     // redirect to compliment
     res.redirect("/compliments")
   },
+  // edit action code goes here...
   edit: function(req, res){
+<<<<<<< HEAD
     res.send("No editing allowed");
   }
   // edit action code goes here...
+=======
+    res.redirect("/compliments")
+  },
+>>>>>>> af11f44aff9c6da3de83671bc8a173bd1b5a8546
 
  // update action code goes here...
+ update: function(req, res){
+   res.send("Got 'em!");
+ }
 }
 
 module.exports = complimentsController;
